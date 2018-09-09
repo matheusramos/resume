@@ -1,0 +1,129 @@
+{
+  "name": {
+    "first": "Matheus",
+    "middle": null,
+    "last": "Ramos"
+  },
+  "about": "Hi, my name is John Doe. I\"m just about the most boring type of person you could\npossibly imagine. I like collecting leaves from the tree in my back yard and documenting\neach time I eat a peanut that is non-uniform. I am not a robot. Please hire me.",
+  "position": "Front-end developer",
+  "birth": {
+    "year": 1990,
+    "location": "Campinas Area - Brazil"
+  },
+  "experience": [
+    {
+      "company": "Logicalis",
+      "position": "Front-end Developer",
+      "timeperiod": "since January 2017",
+      "description": "Working in several challenging projects, predominantly in React and Node.js.\nRecently working as lead front-end developer of the Eugenio IoT plataform,\nfacing inquiring demands, such as micro front-ends, componentization and\nperformance optimization."
+    },
+    {
+      "company": "Enact.io",
+      "position": "Full Stack Developer",
+      "timeperiod": "June 2016 - December 2016",
+      "description": "As a part time developer, working remotely half of the time, I helped to develop\na smart booking system for medical appointments using the MEAN stack."
+    },
+    {
+      "company": "Icaro Tech",
+      "position": "Full Stack Developer",
+      "timeperiod": "February 2015 - December 2016",
+      "description": "I worked predominantly in a product that analyzes and provides visualization\nfor big data. The challenges I have faced included the overall evolution of the\nproduct, adding and improving functionalities while keeping a good user experience."
+    },
+    {
+      "company": "24º Congresso Odontológico de Bauru",
+      "position": "Full Stack Developer",
+      "timeperiod": 2009,
+      "description": "Institutional website for the 24º Dental Congress of Bauru plus a registering\napplication. The attendees could pay online while organizers could track the payments."
+    }
+  ],
+  "publications": [
+    {
+      "publisher": "SIGDOC - Special Interest Group on Design of Communication",
+      "title": "An approach to improve the accessibility and usability of existing web systems (co-author)",
+      "year": 2013
+    }
+  ],
+  "volunteering": [
+    {
+      "company": "Hour of code",
+      "position": "Tutor",
+      "timeperiod": "December 2016",
+      "description": "Introduce computer science to school students, helping them to complete short\nprogramming tutorials."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Universidade de São Paulo",
+      "timeperiod": "2009 - 2014",
+      "description": "B.Sc. Computer Science"
+    },
+    {
+      "degree": "University of Ontario Institute of Technology",
+      "timeperiod": "2012 - 2013",
+      "description": "B.Sc. Computer Science (Sandwich degree)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": 80
+    },
+    {
+      "name": "React",
+      "level": 70
+    },
+    {
+      "name": "Node.js",
+      "level": 65
+    },
+    {
+      "name": "CSS3",
+      "level": 60
+    },
+    {
+      "name": "AngularJS",
+      "level": 60
+    },
+    {
+      "name": "Git",
+      "level": 80
+    },
+    {
+      "name": "Docker",
+      "level": 70
+    }
+  ],
+  "languages": [
+    {
+      "name": "Portuguese",
+      "level": 100
+    },
+    {
+      "name": "English",
+      "level": 90
+    },
+    {
+      "name": "French",
+      "level": 15
+    }
+  ],
+  "recommendations": [
+    {
+      "message": "He often manages to finish his tasks with good quality and efficiently, but he is\nrarely stressed (...) I would definitely appreciate to continue working with him",
+      "author": "Daniel de Paula",
+      "position": "Former software engineer from Icaro Tech",
+      "observation": "Full text on Linkedin"
+    }
+  ],
+  "hobbies": "Books - Movies and TV series - Mugs - Discovering new songs",
+  "knowledge": "Also proficient in Adobe Photoshop and Illustrator, grew up bilingual\n(English and Klingon).",
+  "contact": {
+    "email": "matheusedsonramos@gmail.com",
+    "phone": "+55 19 998-445-528",
+    "street": "Campinas Area - Brazil",
+    "website": "matheusramos.github.io",
+    "github": "matheusramos",
+    "linkedin": "matheusedsonramos"
+  },
+  "lang": "en"
+}
