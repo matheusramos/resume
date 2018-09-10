@@ -1,6 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import moment from 'moment';
 import styles from './MainEntry.css';
+
+function toRangeString(startDate, endDate) {
+  if (!startDate) {
+    return '';
+  }
+
+  const start = moment(startDate).format('MMMM YYYY');
+  const end = endDate ? moment(endDate).format('MMMM YYYY') : 'Present';
+
+  return `${start} - ${end}`;
+}
 
 const MainEntry = props => {
   const { title, place, startDate, endDate, description } = props;
@@ -11,10 +23,7 @@ const MainEntry = props => {
         <span className={styles.separator}>@</span>
         <span>{place}</span>
       </h3>
-      <p>
-        {startDate && startDate.toISOString()} -{' '}
-        {endDate && endDate.toISOString()}
-      </p>
+      <p>{toRangeString(startDate, endDate)}</p>
       <p>{description}</p>
     </div>
   );
