@@ -1,8 +1,11 @@
 import React, { Fragment } from 'react';
+import styles from './MainSection.css';
 
-export default props => (
+const MainSection = props => (
   <Fragment>
-    <h2>{props.title}</h2>
+    <h2 className={styles.title}>{props.title}</h2>
     {props.children}
   </Fragment>
 );
+
+export default MainSection;

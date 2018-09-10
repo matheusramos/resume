@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './MainEntry.css';
 
 const MainEntry = props => {
   const { title, place, startDate, endDate, description } = props;
   return (
     <div>
-      <h3>
-        {title} @ {place}
+      <h3 className={styles.title}>
+        <span>{title}</span>
+        <span className={styles.separator}>@</span>
+        <span>{place}</span>
       </h3>
       <p>
         {startDate && startDate.toISOString()} -{' '}
