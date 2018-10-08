@@ -1,0 +1,19 @@
+.root {
+  text-align: center;
+  padding: 3rem 0;
+  border-bottom: 1px solid #fff;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.position {
+  font-weight: normal;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}

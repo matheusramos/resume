@@ -1,0 +1,17 @@
+.root {
+  margin-top: 2rem;
+}
+
+.name {
+  text-transform: uppercase;
+}
+
+.barBorder {
+  height: 1rem;
+  border: 1px solid;
+}
+
+.bar {
+  height: 100%;
+  background-color: #fff;
+}

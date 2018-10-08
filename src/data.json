@@ -4,7 +4,7 @@
     "middle": null,
     "last": "Ramos"
   },
-  "about": "Hi, my name is John Doe. I\"m just about the most boring type of person you could\npossibly imagine. I like collecting leaves from the tree in my back yard and documenting\neach time I eat a peanut that is non-uniform. I am not a robot. Please hire me.",
+  "about": "Hi, my name is John Doe. I\"m just about the most boring type of person you could\npossibly imagine. I like collecting leaves from trees.",
   "position": "Front-end developer",
   "birth": {
     "year": 1990,
@@ -84,20 +84,12 @@
       "level": 65
     },
     {
-      "name": "CSS3",
+      "name": "CSS",
       "level": 60
     },
     {
       "name": "AngularJS",
       "level": 60
-    },
-    {
-      "name": "Git",
-      "level": 80
-    },
-    {
-      "name": "Docker",
-      "level": 70
     }
   ],
   "languages": [

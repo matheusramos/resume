@@ -1,0 +1,17 @@
+.root {
+  text-align: center;
+  margin: 0 3rem;
+}
+
+.title {
+  border-bottom: 1px solid;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.titleContainer {
+  max-width: 10.3rem;
+  margin: 0 auto;
+}
