@@ -13,7 +13,10 @@ const SidebarSection = props => (
 
 SidebarSection.propTypes = {
   title: PropTypes.string.isRequired,
-  children: PropTypes.element,
+  children: PropTypes.oneOfType([
+    PropTypes.element,
+    PropTypes.arrayOf(PropTypes.element),
+  ]),
 };
 
 export default SidebarSection;

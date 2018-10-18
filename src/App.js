@@ -81,7 +81,7 @@ class App extends Component {
                 key={`${p.title}`}
                 publisher={p.publisher}
                 title={p.title}
-                date={p.year}
+                date={p.date && new Date(p.date)}
               />
             ))}
           </Section>

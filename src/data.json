@@ -4,12 +4,18 @@
     "middle": null,
     "last": "Ramos"
   },
+  "contact": {
+    "email": "matheusedsonramos@gmail.com",
+    "phone": "+55 19 998-445-528",
+    "street": "Campinas Area - Brazil",
+    "website": "matheusramos.github.io",
+    "github": "matheusramos",
+    "linkedin": "matheusedsonramos"
+  },
+  "hobbies": "Books - Movies and TV series - Mugs - Discovering new songs",
+  "knowledge": "Also proficient in Adobe Photoshop and Illustrator, grew up bilingual\n(English and Klingon).",
   "about": "Hi, my name is John Doe. I\"m just about the most boring type of person you could\npossibly imagine. I like collecting leaves from trees.",
   "position": "Front-end developer",
-  "birth": {
-    "year": 1990,
-    "location": "Campinas Area - Brazil"
-  },
   "experience": [
     {
       "company": "Logicalis",
@@ -44,7 +50,7 @@
     {
       "publisher": "SIGDOC",
       "title": "An approach to improve the accessibility and usability of existing web systems (co-author)",
-      "year": "2013-09-01"
+      "date": "2013-09-01"
     }
   ],
   "volunteering": [
@@ -114,16 +120,5 @@
       "position": "Former software engineer from Icaro Tech",
       "observation": "Full text on Linkedin"
     }
-  ],
-  "hobbies": "Books - Movies and TV series - Mugs - Discovering new songs",
-  "knowledge": "Also proficient in Adobe Photoshop and Illustrator, grew up bilingual\n(English and Klingon).",
-  "contact": {
-    "email": "matheusedsonramos@gmail.com",
-    "phone": "+55 19 998-445-528",
-    "street": "Campinas Area - Brazil",
-    "website": "matheusramos.github.io",
-    "github": "matheusramos",
-    "linkedin": "matheusedsonramos"
-  },
-  "lang": "en"
+  ]
 }

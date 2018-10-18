@@ -14,7 +14,7 @@ const Experience = props => (
 
 Experience.propTypes = {
   company: PropTypes.string,
-  isCurrent: PropTypes.boolean,
+  isCurrent: PropTypes.bool,
   position: PropTypes.string,
   startDate: PropTypes.instanceOf(Date).isRequired,
   endDate: PropTypes.instanceOf(Date),
