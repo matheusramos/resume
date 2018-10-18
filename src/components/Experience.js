@@ -7,13 +7,14 @@ const Experience = props => (
     title={props.position}
     place={props.company}
     startDate={props.startDate}
-    endDate={props.endDate}
+    endDate={props.isCurrent ? +Infinity : props.endDate}
     description={props.description}
   />
 );
 
 Experience.propTypes = {
   company: PropTypes.string,
+  isCurrent: PropTypes.boolean,
   position: PropTypes.string,
   startDate: PropTypes.instanceOf(Date).isRequired,
   endDate: PropTypes.instanceOf(Date),

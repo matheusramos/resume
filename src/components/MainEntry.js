@@ -9,15 +9,23 @@ function toRangeString(startDate, endDate) {
   }
 
   const start = moment(startDate).format('MMMM YYYY');
-  const end = endDate ? moment(endDate).format('MMMM YYYY') : 'Present';
 
-  return `${start} - ${end}`;
+  let end;
+  if (!endDate) {
+    end = '';
+  } else if (endDate === +Infinity) {
+    end = 'Present';
+  } else {
+    end = moment(endDate).format('MMMM YYYY');
+  }
+
+  return start.concat(end ? ` - ${end}` : '');
 }
 
 const MainEntry = props => {
   const { title, place, startDate, endDate, description } = props;
   return (
-    <div>
+    <div className={styles.root}>
       <h3 className={styles.title}>
         <span>{title}</span>
         <span className={styles.separator}>@</span>
@@ -40,7 +48,10 @@ MainEntry.propTypes = {
   title: PropTypes.string.isRequired,
   place: PropTypes.string,
   startDate: PropTypes.instanceOf(Date).isRequired,
-  endDate: PropTypes.instanceOf(Date),
+  endDate: PropTypes.oneOfType([
+    PropTypes.instanceOf(Date), // end date
+    PropTypes.number, // infinity means it is currently happening
+  ]),
   description: PropTypes.string,
 };
 

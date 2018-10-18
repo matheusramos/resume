@@ -15,6 +15,7 @@
       "company": "Logicalis",
       "position": "Front-end Developer",
       "start": "2017-01-01",
+      "isCurrent": true,
       "description": "Working in several challenging projects, predominantly in React and Node.js.\nRecently working as lead front-end developer of the Eugenio IoT plataform,\nfacing inquiring demands, such as micro front-ends, componentization and\nperformance optimization."
     },
     {
@@ -41,9 +42,9 @@
   ],
   "publications": [
     {
-      "publisher": "SIGDOC - Special Interest Group on Design of Communication",
+      "publisher": "SIGDOC",
       "title": "An approach to improve the accessibility and usability of existing web systems (co-author)",
-      "year": 2013
+      "year": "2013-09-01"
     }
   ],
   "volunteering": [
@@ -64,7 +65,7 @@
     },
     {
       "institute": "University of Ontario Institute of Technology",
-      "degree": "B.Sc. Computer Science (Sandwich degree)",
+      "degree": "B.Sc. Computer Science",
       "start": "2012-09-01",
       "end": "2013-12-01",
       "description": ""

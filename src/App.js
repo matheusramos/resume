@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Main from './components/Main';
 import Name from './components/Name';
+import Publication from './components/Publication';
 import Section from './components/Section';
 import Sidebar from './components/Sidebar';
 import SidebarSection from './components/SidebarSection';
@@ -14,7 +15,7 @@ import info from './data.json';
 
 class App extends Component {
   render() {
-    const { experience, education } = info;
+    const { experience, education, publications } = info;
     return (
       <div className={styles.app}>
         <Sidebar>
@@ -34,6 +35,14 @@ class App extends Component {
           <SidebarSection title="Skills">
             {info.skills
               .sort((a, b) => b.level - a.level)
+              .slice(0, 4)
+              .map(skill => (
+                <Bar key={skill.name} name={skill.name} level={skill.level} />
+              ))}
+          </SidebarSection>
+          <SidebarSection title="Languages">
+            {info.languages
+              .sort((a, b) => b.level - a.level)
               .slice(0, 3)
               .map(skill => (
                 <Bar key={skill.name} name={skill.name} level={skill.level} />
@@ -46,10 +55,11 @@ class App extends Component {
               <Experience
                 key={`${xp.title}-${xp.company}`}
                 company={xp.company}
+                description={xp.description}
+                isCurrent={xp.isCurrent}
                 position={xp.position}
                 startDate={xp.start && new Date(xp.start)}
                 endDate={xp.end && new Date(xp.end)}
-                description={xp.description}
               />
             ))}
           </Section>
@@ -62,6 +72,16 @@ class App extends Component {
                 startDate={ed.start && new Date(ed.start)}
                 endDate={ed.end && new Date(ed.end)}
                 description={ed.description}
+              />
+            ))}
+          </Section>
+          <Section title="Publications">
+            {publications.map(p => (
+              <Publication
+                key={`${p.title}`}
+                publisher={p.publisher}
+                title={p.title}
+                date={p.year}
               />
             ))}
           </Section>

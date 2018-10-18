@@ -6,7 +6,7 @@ const Name = props => (
   <div className={styles.root}>
     <div className={styles.name}>{props.name}</div>
     <div className={styles.name}>{props.surname}</div>
-    <h3 className={styles.position}>{props.position}</h3>
+    <div className={styles.position}>{props.position}</div>
   </div>
 );
 

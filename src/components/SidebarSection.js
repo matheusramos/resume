@@ -5,7 +5,7 @@ import styles from './SidebarSection.css';
 const SidebarSection = props => (
   <div className={styles.root}>
     <div className={styles.titleContainer}>
-      <h3 className={styles.title}>{props.title}</h3>
+      <h2 className={styles.title}>{props.title}</h2>
     </div>
     {props.children}
   </div>
