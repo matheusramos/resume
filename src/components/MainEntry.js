@@ -32,7 +32,7 @@ const MainEntry = props => {
         <span>{place}</span>
       </h3>
       <p>{toRangeString(startDate, endDate)}</p>
-      <p>{description}</p>
+      <p className={styles.description}>{description}</p>
     </div>
   );
 };

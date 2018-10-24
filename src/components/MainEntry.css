@@ -10,3 +10,7 @@
 .separator {
   padding: 0.3em;
 }
+
+.description {
+  white-space: pre-line;
+}

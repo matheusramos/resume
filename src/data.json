@@ -12,38 +12,37 @@
     "github": "matheusramos",
     "linkedin": "matheusedsonramos"
   },
+  "about": "Enthusiastic software developer with 6 years of experience building high-quality software and web applications; I'm passionate about the web platform, performance metrics and creating stunning user experiences.",
   "hobbies": "Books - Movies and TV series - Mugs - Discovering new songs",
-  "knowledge": "Also proficient in Adobe Photoshop and Illustrator, grew up bilingual\n(English and Klingon).",
-  "about": "Hi, my name is John Doe. I\"m just about the most boring type of person you could\npossibly imagine. I like collecting leaves from trees.",
-  "position": "Front-end developer",
+  "position": "Software developer",
   "experience": [
     {
       "company": "Logicalis",
       "position": "Front-end Developer",
       "start": "2017-01-01",
       "isCurrent": true,
-      "description": "Working in several challenging projects, predominantly in React and Node.js.\nRecently working as lead front-end developer of the Eugenio IoT plataform,\nfacing inquiring demands, such as micro front-ends, componentization and\nperformance optimization."
+      "description": "As lead front-end developer, some roles I've played were:\n- Be part of the architecture team, to continuously define/review the front-end technology stack\n- Together with UX designers, define and build a design system to be used as base for all projects\n- Build/maintain a variety of SPAs from dashboards fed by IOT devices to a reward program app based in blockchain"
     },
     {
       "company": "Enact.io",
       "position": "Full Stack Developer",
       "start": "2016-06-01",
       "end": "2016-12-01",
-      "description": "As a part time developer, working remotely half of the time, I helped to develop\na smart booking system for medical appointments using the MEAN stack."
+      "description": "Using the MEAN stack, remotely worked in very innovative mobile-first SPAs, including:\n- A smart booking system for medical appointments\n- A platform to join tourists and professional guides"
     },
     {
-      "company": "Icaro Tech",
+      "company": "IcaroTech",
       "position": "Full Stack Developer",
       "start": "2015-02-01",
       "end": "2016-12-01",
-      "description": "I worked predominantly in a product that analyzes and provides visualization\nfor big data. The challenges I have faced included the overall evolution of the\nproduct, adding and improving functionalities while keeping a good user experience."
+      "description": "Worked as lead developer of a data visualization web application made with AngularJS and Spring Framework. Some of my responsibilities were:\n- Create new interactive visualizations using D3.js.\n- Develop data analysis algorithms targeting the telecom industry\n- Integrate new platforms (such as Apache Spark)"
     },
     {
       "company": "24º Congresso Odontológico de Bauru",
       "position": "Full Stack Developer",
       "start": "2010-06-01",
       "end": "2010-07-01",
-      "description": "Institutional website for the 24º Dental Congress of Bauru plus a registering\napplication. The attendees could pay online while organizers could track the payments."
+      "description": "Full web solution for registering at the congress including institutional website, paper submission and payment. Made with Vanilla JS and PHP."
     }
   ],
   "publications": [
@@ -74,7 +73,7 @@
       "degree": "B.Sc. Computer Science",
       "start": "2012-09-01",
       "end": "2013-12-01",
-      "description": ""
+      "description": "Exchange program studying 1 year as a regular undergraduate student and developing a 3-month project with VR technology."
     }
   ],
   "skills": [
