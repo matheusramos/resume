@@ -11,11 +11,3 @@
   font-weight: 700;
   src: url('./assets/fonts/Montserrat-Bold.ttf');
 }
-
-body {
-  margin: 0;
-  padding: 0;
-  color: #333;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.1em;
-}

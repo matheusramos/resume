@@ -1,11 +1,17 @@
 /* mobile */
 body {
-  font-size: 10px;
+  color: #333;
   color-adjust: exact;
   -webkit-print-color-adjust: exact;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 0;
 }
 
 p {
+  letter-spacing: 0.04em;
   margin: 0.3em 0;
   line-height: 1.83em;
   text-align: justify;
